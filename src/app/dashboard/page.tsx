@@ -77,7 +77,7 @@ export default function Dashboard() {
       backgroundImage: "url('/static/bg-5.jpg')",
       backgroundSize: "cover",
       backgroundPosition: "center",
-      height: "100vh",
+      height: "100%",
       width: "100%"
     }}
      className="min-h-screen bg-[#0A0B0F] text-white">
