@@ -175,7 +175,13 @@ const executeTradingStrategy = async (): Promise<Transaction[]> => {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[600px] bg-[#2a0633] text-white border border-[--border-color]">
+      <DialogContent style={{
+      backgroundImage: "url('/static/bg-6.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      height: "100%",
+      width: "100%"
+    }} className="sm:max-w-[600px] bg-[#2a0633] text-white border border-[--border-color]">
         <DialogHeader>
           <DialogTitle className="text-2xl">
             {showFundingStep ? "Fund Your Alris Wallet" : "Customize Your Strategy and Risk Profile"}
