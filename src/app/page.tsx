@@ -14,6 +14,7 @@ export default function Home() {
       backgroundPosition: "center",
       height: "100vh",
       width: "100%"
+      
     }}
       className="min-h-screen bg-[#2a0633] text-white">
       <Toaster />
